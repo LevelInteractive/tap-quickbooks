@@ -89,7 +89,7 @@
     {"name": "Id", "type": "string"},
     {"name": "TxnTaxDetail", "type": "string"},
     {"name": "MetaData", "type": "string"}
-]
+],
   
   "PaymentMethod": [
     {"name": "Name", "type": "string"},
