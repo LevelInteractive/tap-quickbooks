@@ -55,6 +55,17 @@
     {"name": "Id", "type": "string"},
     {"name": "MetaData", "type": "string"}
   ],
+  "Deposit": [
+    {"name": "SyncToken", "type": "string"},
+    {"name": "domain", "type": "string"},
+    {"name": "DepositToAccountRef", "type": "object"},
+    {"name": "TxnDate", "type": "string"},
+    {"name": "TotalAmt", "type": "number"},
+    {"name": "sparse", "type": "boolean"},
+    {"name": "Line", "type": "array"},
+    {"name": "Id", "type": "string"},
+    {"name": "MetaData", "type": "object"}
+  ],
   "PaymentMethod": [
     {"name": "Name", "type": "string"},
     {"name": "SyncToken", "type": "string"},
